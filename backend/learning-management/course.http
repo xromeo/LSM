@@ -1,0 +1,18 @@
+###
+
+# curl -X POST -H "Content-Type: application/json" -d '{
+#  "name": "Course Name",
+#  "startDate": "2023-11-01",
+#  "endDate": "2023-12-31"
+#}' http://localhost:8080/api/courses
+POST http://localhost:8080/api/courses
+Content-Type: application/json
+
+{
+  "name": "Course Name1",
+  "startDate": "2023-11-02",
+  "endDate": "2023-12-31"
+}
+
+###
+
